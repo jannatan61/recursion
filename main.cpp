@@ -2,16 +2,14 @@
 
 using namespace std;
 void print(int n){
-
 if (n<1 || n>100){
-   // cout<<"the number has to be between 1 and 100"<<endl;
+    //cout<<"the number has to be between 1 and 100"<<endl;
     return;
 }
-cout<<"i love Ricursion" <<endl;
 print(n-1);
+cout<<n<<endl;
 
 }
-
 int main()
 {
     int n;
